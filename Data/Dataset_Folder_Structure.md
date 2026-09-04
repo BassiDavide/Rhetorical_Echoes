@@ -31,4 +31,4 @@ Labels note: in `finetuning_span_annotations/comments/`, the non-suffixed files 
 ```
 pip install youtube-transcript-api
 ```
-Caveat: this pulls the public auto-generated captions, which has no punctuation. We restored their punctuation with the PunctuationModel of Guhr et al. (2021). This may differ in punctuation/casing from the transcript text the original span offsets were computed on (that text went through a punctuation-restoration step) — treat transcript rehydration as best-effort, you can mail the corresponding author for additional additional support on this matter.
+Caveat: this pulls the public auto-generated captions, which has no punctuation. We restored their punctuation with the PunctuationModel of Guhr et al. (2021). This may differ in punctuation/casing from the transcript text the original span offsets were computed on (that text went through a punctuation-restoration step) — treat transcript rehydration as best-effort, you can mail the corresponding author for additional additional support on this matter (bassidavide94@gmail.com).
